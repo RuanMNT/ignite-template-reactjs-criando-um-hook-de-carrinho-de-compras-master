@@ -1,8 +1,8 @@
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
+// import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
 import { createContext, ReactNode, useContext, useState } from 'react';
 import { toast } from 'react-toastify';
 import { api } from '../services/api';
-import { Product, Stock } from '../types';
+import { Product } from '../types';
 
 interface CartProviderProps {
   children: ReactNode;
