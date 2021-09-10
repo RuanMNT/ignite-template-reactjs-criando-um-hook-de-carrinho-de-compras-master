@@ -73,7 +73,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       } else {
         throw Error();
       }
-      console.log('Resposta na api', localStorage.getItem('@RocketShoes:cart'))
     } catch {
       toast.error('Erro na remoção do produto');
     }
